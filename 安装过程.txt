@@ -1,0 +1,9 @@
+创建出dockerhub的拉取密码
+
+kubectl create secret generic dockerhub-key \
+    --from-file=.dockerconfigjson=/root/.docker/config.json \
+    --type=kubernetes.io/dockerconfigjson
+
+看一下有哪些secret对象：kubectl get secret -A
+查看：kubectl  get secret dockerhub-key -oyaml
+解密看一下：echo ewo... | base64 -d
