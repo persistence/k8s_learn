@@ -12,6 +12,9 @@ kubectl create secret generic dockerhub-key \
 kubectl create ns cloudnative
 kubectl get ns
 
-export KUBECONFIG=config
+
+kubectl create -f myenv.yaml -n cloudnative
+
+
 kubectl create -f deployment.yaml -n cloudnative
 
