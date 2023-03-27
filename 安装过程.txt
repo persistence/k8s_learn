@@ -7,3 +7,11 @@ kubectl create secret generic dockerhub-key \
 看一下有哪些secret对象：kubectl get secret -A
 查看：kubectl  get secret dockerhub-key -oyaml
 解密看一下：echo ewo... | base64 -d
+
+
+kubectl create ns cloudnative
+kubectl get ns
+
+export KUBECONFIG=config
+kubectl create -f deployment.yaml -n cloudnative
+

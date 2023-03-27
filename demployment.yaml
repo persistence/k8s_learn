@@ -29,7 +29,7 @@ spec:
                 configMapKeyRef:
                   key: httpport
                   name: myenv
-          image: cloudnative.azurecr.io/httpserver:220806120915df4309
+          image: yinfengpersistence/httpserver:v2
           imagePullPolicy: IfNotPresent
           livenessProbe:
             failureThreshold: 3

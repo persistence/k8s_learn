@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b950ceba-32d6-4d26-b353-650b8e5b8560" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/httpserver/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/httpserver/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../demployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../安装过程.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../安装过程.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
